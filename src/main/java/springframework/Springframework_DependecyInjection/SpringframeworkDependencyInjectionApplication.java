@@ -16,7 +16,7 @@ public class SpringframeworkDependencyInjectionApplication {
 		String greeting = mycontroller.helloWorld();
 		System.out.println(greeting);
 		System.out.println("-------Property");
-		PropertyInjectedController propertyInjectedController = (PropertyInjectedController) ctx.getBean("propertyinjectcontroller");
+		PropertyInjectedController propertyInjectedController = (PropertyInjectedController) ctx.getBean("propertyInjectedController");
 		System.out.println(propertyInjectedController.getGreetings());
 	}
 
