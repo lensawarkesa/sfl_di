@@ -6,7 +6,7 @@ import org.springframework.stereotype.Controller;
 public class MyController {
 
     public String helloWorld(){
-        System.out.println("hello world");
+        System.out.println("Hello World");
         return " Hello Folks";
     }
 }
